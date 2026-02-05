@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jasmin Clements — CV</title>
+  <meta name="description" content="CV website for Jasmin Clements — aspiring software engineer." />
+
+  <!-- Fonts (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div>
+        <h1 class="title">Jasmin Clements</h1>
+        <p class="subtitle">Aspiring Software Engineer • Poole, Dorset</p>
+      </div>
+
+      <div class="header__actions">
+        <a class="btn" href="#contact">Contact</a>
+        <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
+          Toggle theme
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="container grid">
+      <aside class="card">
+        <h2 class="card__title">Details</h2>
+        <ul class="list">
+          <li><strong>Location:</strong> Poole, Dorset</li>
+          <li><strong>Email:</strong> <a href="mailto:jazzielclements@gmail.com">jazzielclements@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/jasments" target="_blank" rel="noreferrer">github.com/jasments</a></li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h2 class="card__title">Core Skills</h2>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Debugging</span>
+          <span class="tag">Research-led learning</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2 class="card__title">Tools</h2>
+        <ul class="list">
+          <li>Visual Studio Code</li>
+          <li>Xcode (basic)</li>
+          <li>macOS</li>
+        </ul>
+      </aside>
+
+      <section class="content">
+        <article class="card">
+          <h2 class="card__title">Profile</h2>
+          <p>
+            Aspiring Software Engineer and motivated career-changer seeking a Degree Apprenticeship in Software Engineering.
+            I am developing my technical skills through hands-on projects and structured learning, with a strong interest in
+            building reliable, real-world software solutions. I thrive in collaborative environments, enjoy solving unfamiliar
+            problems, and take ownership of my learning and development.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Technical Skills</h2>
+
+          <div class="two-col">
+            <div>
+              <h3 class="h3">Programming</h3>
+              <ul class="bullets">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Java</li>
+                <li>Basic: Swift, Python, C++</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">Development Practices</h3>
+              <ul class="bullets">
+                <li>Logical problem-solving and debugging</li>
+                <li>Writing clear, readable code</li>
+                <li>Iterative improvement through feedback</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Projects</h2>
+          <p class="muted">Add your best 2–4 projects here (even small ones). Example layout below:</p>
+
+          <div class="projects">
+            <div class="project">
+              <div class="project__top">
+                <h3 class="h3">CV Website</h3>
+                <span class="pill">HTML • CSS • JS</span>
+              </div>
+              <p class="muted">
+                A responsive one-page CV website with theme toggle and clean layout. Hosted on GitHub Pages.
+              </p>
+              <div class="project__links">
+                <a href="https://github.com/jasments" target="_blank" rel="noreferrer">Repo</a>
+                <span class="dot">•</span>
+                <a href="#" aria-disabled="true" class="disabled">Live</a>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project__top">
+                <h3 class="h3">Add Another Project</h3>
+                <span class="pill">Java</span>
+              </div>
+              <p class="muted">
+                Briefly describe what you built, what you learned, and what problem it solves.
+              </p>
+              <div class="project__links">
+                <a href="#" aria-disabled="true" class="disabled">Repo</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Education & Qualifications</h2>
+          <ul class="timeline">
+            <li>
+              <div class="timeline__title">OCR Level 2 National Award in ICT — Merit</div>
+              <div class="timeline__meta">Oakmead College of Technology (Bournemouth, Dorset) • 2003–2009</div>
+            </li>
+            <li>
+              <div class="timeline__title">Edexcel Level 2 BTEC Award in Textiles — Merit</div>
+              <div class="timeline__meta">Oakmead College of Technology • 2003–2009</div>
+            </li>
+            <li>
+              <div class="timeline__title">GCSEs (incl. Mathematics C, Statistics C, Humanities C, Applied Science C)</div>
+              <div class="timeline__meta">2003–2009</div>
+            </li>
+            <li>
+              <div class="timeline__title">Functional Skills English — Level 2 (In Progress)</div>
+              <div class="timeline__meta">Currently studying</div>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card" id="contact">
+          <h2 class="card__title">Contact</h2>
+          <p>Best way to reach me:</p>
+
+          <div class="contact">
+            <a class="btn" href="mailto:jazzielclements@gmail.com">Email me</a>
+            <a class="btn btn--ghost" href="https://github.com/jasments" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <footer class="footer muted">
+          <p>© <span id="year"></span> Jasmin Clements</p>
+        </footer>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
